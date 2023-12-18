@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import Sidebar from './Sidebar';
 
 
 // import { initializeApp } from "firebase/app";
@@ -26,9 +27,12 @@ import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 function App() {
   return (
     <div className="app">
+        <Header />
     
-     <Header />
+     <div className='app-body'>
+
      <Sidebar />
+     </div>
      </div>)
 }
 
