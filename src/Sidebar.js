@@ -5,6 +5,13 @@ import Av from './Av';
 import './Sidebar.css'
 
 function Sidebar() {
+
+    const recentItem = (topic) => (
+        <div className='sidebar-recentItem'>
+            <span className='hash'>#</span>
+            <p>{topic}</p>
+        </div>
+    )
     return (
         <div className='sidebar'>
             <div className='sidebar-top'>
@@ -30,6 +37,13 @@ function Sidebar() {
 
              <div className='sidebar-bottom'>
                 <p>Recent</p>
+                {recentItem('Learnt Game Dev')}
+                {recentItem('Learnt Game Dev')}
+
+                {recentItem('Learnt Game Dev')}
+
+                {recentItem('Learnt Game Dev')}
+
              </div>
             
         </div>

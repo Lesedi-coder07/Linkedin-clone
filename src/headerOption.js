@@ -7,7 +7,7 @@ function HeaderOption({title, icon, cl, av}) {
         <div className='HeaderOption'>
             <img src={icon} width={'20px'} />
             {av && (
-              <Av />
+              <Av className={'Iconu'} />
             )}
             <p>{title }</p>
         </div>

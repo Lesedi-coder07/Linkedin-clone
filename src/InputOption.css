@@ -1,0 +1,16 @@
+.InputOption {
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.InputOption > p {
+    margin: auto 7px;
+    color: grey;
+}
+
+.InputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 11px ;
+}

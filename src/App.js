@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 import Sidebar from './Sidebar';
+import Feed from './Feed';
 
 
 // import { initializeApp } from "firebase/app";
@@ -32,6 +33,7 @@ function App() {
      <div className='app-body'>
 
      <Sidebar />
+     <Feed />
      </div>
      </div>)
 }
